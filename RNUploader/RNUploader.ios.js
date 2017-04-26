@@ -4,9 +4,7 @@
  */
 'use strict';
 
-
-//adding stuff
-///var NativeRNUploader = require('NativeModules').RNUploader;
+var NativeRNUploader = require('NativeModules').RNUploader;
 
 /**
  * High-level docs for the RNUploader iOS API can be written here.
