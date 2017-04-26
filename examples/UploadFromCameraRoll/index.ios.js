@@ -54,7 +54,7 @@ class UploadFromCameraRoll extends React.Component {
         const index = parseInt(Math.random() * (assets.length));
         const randomImage = assets[index];
 
-        let images = this.state.images;
+        //let images = this.state.images;
         images.push(randomImage.node.image);
 
         this.setState({images: images});
